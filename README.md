@@ -11,3 +11,11 @@ Key features
 * **Hybrid architecture** – parallel Bi-LSTM and GRU branches with late fusion
 * **Fully reproducible** – Conda environment, deterministic seeds, ready-made scripts
 * **Public-data only** – no patient-identifiable information committed
+
+Quick start
+
+```bash
+python -m venv venv
+source venv/Scripts/activate          # .\venv\Scripts\Activate on Windows CMD
+pip install -r requirements.txt
+python scripts/00_fetch_data.py       # download/organise datasets
