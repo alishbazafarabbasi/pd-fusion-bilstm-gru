@@ -1,0 +1,13 @@
+numpy
+pandas
+scikit-learn
+imbalanced-learn
+matplotlib
+tqdm
+torch          # installs CPU-only build; switch to torch==2.2.0+cu121 if you need GPU
+torchaudio
+torchvision
+jupyterlab
+librosa
+nibabel        # reading MRI files
+opencv-python  # image resize
